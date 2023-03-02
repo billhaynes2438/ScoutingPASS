@@ -17,7 +17,7 @@ var config_data = `
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "2023mimus",
+      "defaultValue": "2023midtr",
       "required": "true",
       "disabled": "true"
     },

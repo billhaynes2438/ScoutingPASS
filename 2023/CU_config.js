@@ -68,7 +68,7 @@ var config_data = `
       "code": "asg",
       "type": "clickable_image",
       "filename": "2023/grid_image.png",
-      "dimensions": "9 4",
+      "dimensions": "12 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
       "showFlip": "false",

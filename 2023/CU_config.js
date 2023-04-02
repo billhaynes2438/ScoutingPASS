@@ -58,7 +58,7 @@ var config_data = `
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
-      "filename": "2023/field_image.png",
+      "filename": "2023/field_imageV2.png",
       "clickRestriction": "one",
       "shape": "circle 5 black red true"
     }

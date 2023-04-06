@@ -9,12 +9,12 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023mimus",
+      "defaultValue": "2023micmp3",
       "required": "true",
       "disabled": "true"
     },

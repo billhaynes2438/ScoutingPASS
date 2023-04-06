@@ -11,13 +11,13 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Event",
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "2023midtr",
+      "defaultValue": "2023micmp3",
       "required": "true",
       "disabled": "true"
     },

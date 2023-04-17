@@ -17,7 +17,7 @@ var config_data = `
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "2023npfcmp",
+      "defaultValue": "2023new",
       "required": "true",
       "disabled": "true"
     },

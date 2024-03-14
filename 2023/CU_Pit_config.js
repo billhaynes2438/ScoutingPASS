@@ -1,7 +1,7 @@
 var config_data = `
 {
-  "title": "Scouting PASS 2023",
-  "page_title": "Charged Up",
+  "title": "Scouting PASS 2024",
+  "page_title": "Crescendo",
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
@@ -10,6 +10,11 @@ var config_data = `
     },
     { "name": "Width",
       "code": "wid",
+      "type": "number",
+      "defaultValue": "0"
+    },
+    { "name": "Length",
+      "code": "len",
       "type": "number",
       "defaultValue": "0"
     },
@@ -36,18 +41,6 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Swerve Ratio",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "L1<br>",
-        "2": "L2<br>",
-        "3": "L3<br>",
-        "4": "L4<br>",
-        "x": "Not Swerve"
-      },
-      "defaultValue":"x"
-    },
     { "name": "Drivetrain Motor",
       "code": "mot",
       "type": "radio",
@@ -59,16 +52,12 @@ var config_data = `
       },
       "defaultValue":"x"
     },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
-    },
-    { "name": "Floor pickup Cones",
-      "code": "fco",
+    { "name": "Floor pickup",
+      "code": "fpu",
       "type": "bool"
     },
-    { "name": "Floor pickup Cubes",
-      "code": "fcu",
+    { "name": "Source pickup",
+      "code": "spu",
       "type": "bool"
     },
     { "name": "Cross Charging Station",
@@ -76,11 +65,21 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Autos",
-      "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    }
+      "code": "sr",
+      "type": "radio",
+      "choices": {
+        "1": "1 note<br>",
+        "2": "2 note<br>",
+        "3": "3 note<br>",
+        "4": "4 note<br>",
+        "5": "5 note<br>",
+        "6": "6 note<br>",
+        "7": "7 note<br>",
+        "pl": "preload only<br>",
+        "x": "No auto"
+      },
+      "defaultValue":"x"
+    },
   ],
   "auton": [
   ],
